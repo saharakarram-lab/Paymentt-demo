@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mock Payment Page (Demo)</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      padding: 40px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      max-width: 400px;
+      margin: auto;
+      border-radius: 8px;
+    }
+    input, button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+    }
+    .warning {
+      color: red;
+      font-size: 0.9em;
+      margin-bottom: 10px;
+    }
+    button {
+      background: #ccc;
+      border: none;
+      cursor: not-allowed;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h2>Checkout (Demo Only)</h2>
+
+    <p class="warning">
+      ⚠️ This is a mock payment page.  
+      No real payments are accepted or processed.
+    </p>
+
+    <label>Card Number</label>
+    <input type="text" placeholder="1234 5678 9012 3456" disabled>
+
+    <label>Expiry Date</label>
+    <input type="text" placeholder="MM/YY" disabled>
+
+    <label>CVV</label>
+    <input type="text" placeholder="123" disabled>
+
+    <button>Pay Now (Disabled)</button>
+  </div>
+
+</body>
+</html>
